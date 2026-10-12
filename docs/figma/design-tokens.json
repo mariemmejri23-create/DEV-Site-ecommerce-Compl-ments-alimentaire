@@ -1,0 +1,63 @@
+{
+  "color": {
+    "primary": { "value": "#C9826B", "type": "color" },
+    "primary-dark": { "value": "#A9624C", "type": "color" },
+    "secondary": { "value": "#8FA68E", "type": "color" },
+    "secondary-light": { "value": "#E4ECE3", "type": "color" },
+    "accent": { "value": "#F4D6C6", "type": "color" },
+    "background": { "value": "#FBF7F2", "type": "color" },
+    "surface": { "value": "#FFFFFF", "type": "color" },
+    "text": { "value": "#2F2A26", "type": "color" },
+    "text-muted": { "value": "#6E645C", "type": "color" },
+    "border": { "value": "#E8DFD5", "type": "color" },
+    "success": { "value": "#4F7A5A", "type": "color" },
+    "warning": { "value": "#B7791F", "type": "color" },
+    "error": { "value": "#B3413A", "type": "color" },
+    "stage": {
+      "preconception": { "value": "#B9A7D6", "type": "color" },
+      "trimester-1": { "value": "#F4D6C6", "type": "color" },
+      "trimester-2": { "value": "#C9826B", "type": "color" },
+      "trimester-3": { "value": "#8FA68E", "type": "color" },
+      "breastfeeding": { "value": "#A7C4D6", "type": "color" }
+    }
+  },
+  "font": {
+    "heading": { "value": "Fraunces", "type": "fontFamilies" },
+    "body": { "value": "DM Sans", "type": "fontFamilies" }
+  },
+  "font-size": {
+    "h1": { "value": "56", "type": "fontSizes" },
+    "h2": { "value": "40", "type": "fontSizes" },
+    "h3": { "value": "28", "type": "fontSizes" },
+    "h4": { "value": "20", "type": "fontSizes" },
+    "body-large": { "value": "20", "type": "fontSizes" },
+    "body": { "value": "16", "type": "fontSizes" },
+    "small": { "value": "14", "type": "fontSizes" },
+    "h1-mobile": { "value": "36", "type": "fontSizes" },
+    "h2-mobile": { "value": "30", "type": "fontSizes" },
+    "h3-mobile": { "value": "24", "type": "fontSizes" }
+  },
+  "spacing": {
+    "1": { "value": "4", "type": "spacing" },
+    "2": { "value": "8", "type": "spacing" },
+    "3": { "value": "12", "type": "spacing" },
+    "4": { "value": "16", "type": "spacing" },
+    "6": { "value": "24", "type": "spacing" },
+    "8": { "value": "32", "type": "spacing" },
+    "12": { "value": "48", "type": "spacing" },
+    "16": { "value": "64", "type": "spacing" },
+    "24": { "value": "96", "type": "spacing" },
+    "32": { "value": "128", "type": "spacing" }
+  },
+  "radius": {
+    "field": { "value": "8", "type": "borderRadius" },
+    "card": { "value": "16", "type": "borderRadius" },
+    "pill": { "value": "999", "type": "borderRadius" }
+  },
+  "shadow": {
+    "card-hover": {
+      "value": { "x": "0", "y": "8", "blur": "24", "spread": "0", "color": "rgba(47,42,38,0.08)", "type": "dropShadow" },
+      "type": "boxShadow"
+    }
+  }
+}
