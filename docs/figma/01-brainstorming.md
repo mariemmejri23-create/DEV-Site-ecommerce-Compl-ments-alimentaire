@@ -9,12 +9,16 @@
 
 > **Une boutique en ligne de compléments alimentaires spécifiquement formulés pour la grossesse, la conception et l'allaitement, qui rassure les futures mamans grâce à la transparence (composition, dosages, avis de professionnels) et un accompagnement trimestre par trimestre.**
 
-### Pistes de nom de marque (à voter dans FigJam)
+### Nom de marque
+
+> ✅ **Nom retenu : Neuf Lunes** (validé le 12/10/2026).
+
+Pistes étudiées :
 
 | Nom | Idée | Remarque |
 |---|---|---|
 | **Maternelle** | Douceur, maternité | Simple, très français |
-| **Neuf Lunes** | 9 mois de grossesse | Poétique, mémorable ✅ (retenu comme nom de travail) |
+| **Neuf Lunes** | 9 mois de grossesse | Poétique, mémorable ✅ **retenu** |
 | **Bump & Bloom** | Ventre rond + épanouissement | Plus international |
 | **Mamaé** | Maman + douceur | Court, bon pour un logo |
 | **Doux Début** | Début de vie | Rassurant |
@@ -151,7 +155,7 @@ Les compléments alimentaires pour femmes enceintes sont très encadrés. À pr�
 ---
 
 ## ✅ Livrables de l'étape 1
-- [ ] Nom de marque choisi (vote)
+- [x] Nom de marque choisi : **Neuf Lunes**
 - [ ] Mind map
 - [ ] Benchmark de 4–6 concurrents avec captures
 - [ ] Carte de positionnement + proposition de valeur
