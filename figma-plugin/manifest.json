@@ -1,0 +1,9 @@
+{
+  "name": "Neuf Lunes — Import conception",
+  "id": "neuf-lunes-import-conception",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": ["figma"],
+  "documentAccess": "dynamic-page",
+  "networkAccess": { "allowedDomains": ["none"] }
+}

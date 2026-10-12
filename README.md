@@ -15,5 +15,10 @@ Projet de boutique en ligne réalisée sur **Webflow** (Webflow Ecommerce), con�
 | 7. Intégration Webflow | Webflow | — | ⏳ |
 | 8. Tests, SEO, mise en ligne | Webflow | — | ⏳ |
 
+## Importer dans Figma
+
+Le dossier [`figma-plugin/`](figma-plugin/README.md) contient un plugin Figma qui génère
+automatiquement les pages, variables, styles, wireframes et composants à partir de ces documents.
+
 Les documents de `docs/figma/` sont conçus pour être recopiés directement dans FigJam / Figma
 (chaque section = un frame ou une zone du tableau).
