@@ -16,6 +16,13 @@
 
 ---
 
+## 5.1 bis Logo — « Les 9 lunes » ✅ (validé le 12/10/2026)
+
+- **Symbole :** 9 lunes disposées en arc, qui grandissent (10 → 26 px) et passent du pêche `#F4D6C6` au terracotta `#C9826B`, comme le ventre au fil des 9 mois.
+- **Wordmark :** « Neuf Lunes » en Fraunces SemiBold + signature « COMPLÉMENTS GROSSESSE & ALLAITEMENT » en DM Sans Medium 10 px, interlettrage 18 %.
+- **Déclinaisons :** version claire (composant Figma `Logo/Neuf Lunes`), version sombre (fond `#2F2A26`, lunes inversées), icône / favicon à 3 lunes (`#E3B6A1` → `#C9826B` → `#A9624C`) sur fond crème.
+- **Règle :** sous 120 px de large, utiliser l'icône 3 lunes plutôt que les 9 lunes.
+
 ## 5.2 Couleurs
 
 | Rôle | Nom | Hex | Usage |
@@ -43,14 +50,14 @@
 
 ## 5.3 Typographie (Google Fonts, gratuites et disponibles dans Webflow)
 
-- **Titres :** *Fraunces* (serif douce, élégante) — poids 500/600
+- **Titres :** *Fraunces* (serif douce, élégante) — poids Regular (400) / SemiBold (600) ; Fraunces n'a pas de Medium dans Figma
 - **Texte & interface :** *DM Sans* — poids 400/500/700
 
 | Style | Desktop | Mobile | Interligne | Poids |
 |---|---|---|---|---|
 | H1 | 56 px | 36 px | 1.1 | Fraunces 600 |
 | H2 | 40 px | 30 px | 1.2 | Fraunces 600 |
-| H3 | 28 px | 24 px | 1.25 | Fraunces 500 |
+| H3 | 28 px | 24 px | 1.25 | Fraunces 400 |
 | H4 | 20 px | 18 px | 1.3 | DM Sans 700 |
 | Texte large | 20 px | 18 px | 1.5 | DM Sans 400 |
 | Texte | 16 px | 16 px | 1.6 | DM Sans 400 |
