@@ -15,6 +15,11 @@ Projet de boutique en ligne réalisée sur **Webflow** (Webflow Ecommerce), con�
 | 7. Intégration Webflow | Webflow | — | ⏳ |
 | 8. Tests, SEO, mise en ligne | Webflow | — | ⏳ |
 
+## Fichier Figma
+
+👉 **[Neuf Lunes — Site e-commerce](https://www.figma.com/design/7Wo9FLyScCUOj6Yl39IGad)** (importé via le connecteur Figma) :
+`01 · Brainstorming & UX` · `02 · Wireframes` · `03 · Design system & Moodboard`.
+
 ## Importer dans Figma
 
 Le dossier [`figma-plugin/`](figma-plugin/README.md) contient un plugin Figma qui génère

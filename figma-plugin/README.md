@@ -15,6 +15,9 @@ Il crée aussi :
 - **Variables** : collection « Couleurs » (18 couleurs) et « Espacements & rayons »
 - **Styles de texte** : `Desktop/H1…Bouton` et `Mobile/H1…Bouton` (Fraunces + DM Sans)
 
+> ⚠️ Le plan Figma **Starter** (gratuit) limite un fichier à **3 pages** : le plugin en crée 8 et
+> nécessite donc un plan payant. Le fichier du README principal a été généré directement en 3 pages.
+
 ## Installation (2 minutes, application Figma **desktop** obligatoire)
 
 1. Télécharge ce dossier `figma-plugin/` sur ton ordinateur (sur GitHub : bouton **Code → Download ZIP**, puis dézippe).
