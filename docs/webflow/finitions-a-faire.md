@@ -13,7 +13,7 @@ Ces réglages sont volontairement reportés à la fin.
 - [x] Version tablette & mobile appliquée via le connecteur Webflow (14/10/2026) : hero et quiz en colonne, grilles 2 colonnes (tablette) puis 1 colonne (mobile), marges 40 px → 20 px, titres réduits (H1 36 px, H2 30 px, H3 22 px), boutons du hero pleine largeur, footer empilé
 - [x] Menu mobile ☰ créé (Dropdown natif, classes `menu_mobile*`) : visible sous 991 px, 5 liens
 - [ ] Relier les liens du menu (desktop et mobile) aux vraies pages quand elles existeront (actuellement `#`)
-- [ ] Optionnel : remplacer le caractère ☰ par une icône SVG
+- [x] Icône ☰ remplacée par un SVG (classe `menu_burger_svg`, 28 px, trait #2F2A26)
 - [ ] Étapes en 2 colonnes sur mobile (actuellement 1 colonne car la classe `etapes_grid` est partagée avec avis, produits, experts et articles) — créer une classe dédiée si besoin
 - [ ] Remplacer les emplacements 📷 par les vraies photos
 
