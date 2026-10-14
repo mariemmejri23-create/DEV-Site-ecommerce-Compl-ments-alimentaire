@@ -11,14 +11,14 @@ Projet de boutique en ligne réalisée sur **Webflow** (Webflow Ecommerce), con�
 | 3. Arborescence & user flows | FigJam | [03-arborescence-userflows.md](docs/figma/03-arborescence-userflows.md) | ✅ |
 | 4. Wireframes basse fidélité | Figma | [04-wireframes.md](docs/figma/04-wireframes.md) | ✅ (spécifications) |
 | 5. Moodboard & design system | Figma | [05-design-system.md](docs/figma/05-design-system.md) + [design-tokens.json](docs/figma/design-tokens.json) | ✅ |
-| 6. Maquettes haute fidélité + prototype | Figma | [06-organisation-fichier-figma.md](docs/figma/06-organisation-fichier-figma.md) | ⏳ à réaliser dans Figma |
+| 6. Maquettes haute fidélité + prototype | Figma | Accueil + fiche produit (desktop 1440 / mobile 390) dans la page `02 · Wireframes & Maquettes HD` | 🟡 accueil & fiche produit ✅ · prototype ⏳ |
 | 7. Intégration Webflow | Webflow | — | ⏳ |
 | 8. Tests, SEO, mise en ligne | Webflow | — | ⏳ |
 
 ## Fichier Figma
 
 👉 **[Neuf Lunes — Site e-commerce](https://www.figma.com/design/7Wo9FLyScCUOj6Yl39IGad)** (importé via le connecteur Figma) :
-`01 · Brainstorming & UX` · `02 · Wireframes` · `03 · Design system & Moodboard`.
+`01 · Brainstorming & UX` · `02 · Wireframes & Maquettes HD` · `03 · Design system & Moodboard`.
 
 ## Importer dans Figma
 
