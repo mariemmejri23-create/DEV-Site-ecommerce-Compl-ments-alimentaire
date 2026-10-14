@@ -11,7 +11,9 @@ Ces réglages sont volontairement reportés à la fin.
 - [ ] Boutons et liens du menu → vrais liens (Wrap in Link Block + page cible)
 - [ ] Newsletter → remplacer par un vrai Form Block (sinon aucune inscription enregistrée)
 - [x] Version tablette & mobile appliquée via le connecteur Webflow (14/10/2026) : hero et quiz en colonne, grilles 2 colonnes (tablette) puis 1 colonne (mobile), marges 40 px → 20 px, titres réduits (H1 36 px, H2 30 px, H3 22 px), boutons du hero pleine largeur, footer empilé
-- [ ] Menu mobile : les liens du menu sont masqués sous 991 px → ajouter un composant **Navbar** Webflow avec icône ☰
+- [x] Menu mobile ☰ créé (Dropdown natif, classes `menu_mobile*`) : visible sous 991 px, 5 liens
+- [ ] Relier les liens du menu (desktop et mobile) aux vraies pages quand elles existeront (actuellement `#`)
+- [ ] Optionnel : remplacer le caractère ☰ par une icône SVG
 - [ ] Étapes en 2 colonnes sur mobile (actuellement 1 colonne car la classe `etapes_grid` est partagée avec avis, produits, experts et articles) — créer une classe dédiée si besoin
 - [ ] Remplacer les emplacements 📷 par les vraies photos
 
