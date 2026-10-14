@@ -10,7 +10,9 @@ Ces réglages sont volontairement reportés à la fin.
 - [ ] Visuel du hero trop grand : Width 45 %, Max H 600 px
 - [ ] Boutons et liens du menu → vrais liens (Wrap in Link Block + page cible)
 - [ ] Newsletter → remplacer par un vrai Form Block (sinon aucune inscription enregistrée)
-- [ ] Version mobile (📱) : rangées horizontales en Direction ↓, marges de section 20 px côtés / 56 px haut-bas (voir maquette Figma « HD — Accueil — Mobile 390 »)
+- [x] Version tablette & mobile appliquée via le connecteur Webflow (14/10/2026) : hero et quiz en colonne, grilles 2 colonnes (tablette) puis 1 colonne (mobile), marges 40 px → 20 px, titres réduits (H1 36 px, H2 30 px, H3 22 px), boutons du hero pleine largeur, footer empilé
+- [ ] Menu mobile : les liens du menu sont masqués sous 991 px → ajouter un composant **Navbar** Webflow avec icône ☰
+- [ ] Étapes en 2 colonnes sur mobile (actuellement 1 colonne car la classe `etapes_grid` est partagée avec avis, produits, experts et articles) — créer une classe dédiée si besoin
 - [ ] Remplacer les emplacements 📷 par les vraies photos
 
 ## Fiche produit
