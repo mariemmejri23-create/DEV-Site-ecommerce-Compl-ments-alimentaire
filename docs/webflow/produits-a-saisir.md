@@ -1,6 +1,7 @@
 # Gamme Neuf Lunes — produits à importer dans Webflow
 
-Fichier d'import : [`produits-import.csv`](produits-import.csv) → Designer → **CMS → Products → Import**.
+Fichier d'import (format Webflow) : [`produits-import.csv`](produits-import.csv) → Designer → **CMS → Products → Import**.
+Le format Webflow n'accepte pas les champs personnalisés (Étape, Accroche, Bénéfices…) : leurs valeurs sont dans [`produits-champs-perso.csv`](produits-champs-perso.csv) et seront ajoutées après l'import.
 (Webflow n'autorise pas la création de produits Ecommerce via le connecteur.)
 
 Gamme définie d'après le cadrage (gamme courte, toutes les étapes couvertes, packs par étape) :
