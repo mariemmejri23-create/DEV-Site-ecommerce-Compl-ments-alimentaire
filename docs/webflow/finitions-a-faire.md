@@ -26,8 +26,8 @@ Ces réglages sont volontairement reportés à la fin.
 - [x] Collection Products : champs ajoutés (Étape, Accroche, Bénéfices, Infos prix, Composition, Mode d'emploi, Précautions d'emploi, Avis sage-femme, Note moyenne, Nombre d'avis)
 - [x] Page **Fiche produit (template)** construite : barre d'annonce + header + fiche + footer, textes reliés aux champs (nom, étape, note, avis, accroche, bénéfices, infos prix, composition, description, mode d'emploi, précautions, avis sage-femme, barre sticky)
 - [x] 11 produits importés par CSV (format Webflow) avec packshots ; champs perso (Étape, Accroche, Bénéfices, Composition, Infos prix, Mode d'emploi, Précautions) remplis via le connecteur ; catégories Préconception / Grossesse / Allaitement / Packs & cures créées et attribuées (catégories d'exemple « mugs » supprimées)
-- [ ] **Devise** : passer de USD à EUR (Site settings → Ecommerce → Currency)
-- [ ] Dans le template : relier le **prix** (champ Price du Default SKU) aux textes `pp_price`, `pp_option_price` et `pp_sticky_price` — non reliable via le connecteur
+- [x] Devise passée en EUR
+- [x] Prix affiché : le champ Ecommerce *Price* n'est pas reliable (ni via le connecteur, ni dans le menu Connect du Designer) → champ texte **« Prix affiché »** créé et relié aux 3 prix du template. ⚠️ À mettre à jour **en même temps que Price** à chaque changement de prix
 - [x] Template : image principale reliée à « Main Image » (miniatures retirées)
 - [x] Template : note/avis et carte « avis sage-femme » **masqués** tant qu'il n'y a pas de vrais avis (visibilité à réactiver)
 - [ ] Sections « Avis clients » et « Souvent associés » : non reprises dans le template (à refaire avec une collection Avis et une Collection List de produits)
