@@ -1,55 +1,27 @@
-# Produits à saisir dans Webflow (Ecommerce → Products → New Product)
+# Gamme Neuf Lunes — produits à importer dans Webflow
 
-> Webflow n'autorise pas la création de produits Ecommerce via le connecteur : ils se saisissent à la main.
-> Chaque champ ci-dessous est déjà relié à la page **Fiche produit (template)**.
-> Textes santé et dosages **indicatifs** : à faire valider par un professionnel avant publication.
+Fichier d'import : [`produits-import.csv`](produits-import.csv) → Designer → **CMS → Products → Import**.
+(Webflow n'autorise pas la création de produits Ecommerce via le connecteur.)
 
-Champs communs à tous les produits :
-- **Product type** : Physical · **Requires shipping** : oui · **Tax category** : Standard
-- **Précautions d'emploi** : Demandez conseil à votre médecin ou sage-femme avant toute prise pendant la grossesse ou l'allaitement. Ne pas dépasser la dose journalière recommandée. Un complément alimentaire ne remplace pas une alimentation variée et équilibrée et un mode de vie sain. Tenir hors de portée des jeunes enfants.
+Gamme définie d'après le cadrage (gamme courte, toutes les étapes couvertes, packs par étape) :
 
----
+| Étape | Produit | Prix | Conditionnement |
+|---|---|---|---|
+| Préconception | Préconception Essentiel | 19,90 € | 30 gélules |
+| 1er trimestre | Prénatal Complet T1 | 22,90 € | 30 gélules |
+| 2e trimestre | Prénatal Complet T2 | 24,90 € | 60 gélules |
+| 3e trimestre | Prénatal Complet T3 | 24,90 € | 60 gélules |
+| T3 → allaitement | Oméga-3 DHA Maman | 19,90 € | 60 capsules |
+| Allaitement | Allaitement Douceur | 23,90 € | 60 gélules |
+| Toutes étapes (classé T2) | Fer Doux | 14,90 € | 30 gélules |
+| Toutes étapes (classé T3) | Magnésium Sérénité | 16,90 € | 60 gélules |
+| Pack | Pack Préconception (Préconception + Oméga-3) | 33,90 € | ≈ -15 % |
+| Pack | Pack 2e trimestre (T2 + Magnésium) | 35,50 € | ≈ -15 % |
+| Pack | Pack Allaitement (Allaitement + Fer Doux) | 32,90 € | ≈ -15 % |
 
-## 1. Prénatal Complet T2 (produit de démonstration de la maquette)
+Packs composés sans doublon de nutriments (pas deux sources de DHA dans un même pack).
 
-| Champ | Valeur |
-|---|---|
-| Name | Prénatal Complet T2 |
-| Slug | prenatal-complet-t2 |
-| Price | 24,90 € |
-| Étape | 2e trimestre |
-| Accroche | La formule complète du 2e trimestre : fer doux pour l'estomac, DHA et vitamine D, en 2 gélules par jour. |
-| Infos prix | soit 0,83 €/jour · 60 gélules · cure de 30 jours |
-| Note moyenne | 4.8 |
-| Nombre d'avis | 124 |
-| Description | Prénatal Complet T2 réunit en 2 gélules les nutriments clés du 2e trimestre : un fer bisglycinate bien toléré, du DHA d'origine marine, de l'acide folique, de la vitamine D3, de l'iode et de la vitamine B12. Sans colorant, sans gluten, fabriqué en France. |
-| Mode d'emploi | 2 gélules par jour, au cours d'un repas, avec un grand verre d'eau. Cure de 30 jours, à renouveler selon l'avis de votre professionnel de santé. |
-| Avis sage-femme | « Au 2e trimestre, les besoins en fer augmentent nettement. J'apprécie que la formule associe un fer bien toléré au DHA. » |
-
-**Bénéfices** (liste à puces dans le champ riche) :
-- 200 mg de DHA : contribue au développement normal du cerveau du fœtus*
-- Fer : contribue à réduire la fatigue*
-- Vitamine D : contribue au fonctionnement normal du système immunitaire*
-
-**Composition** (champ riche) :
-Pour 2 gélules (% VNR*)
-- Fer : 14 mg (100 %)
-- Acide folique (B9) : 400 µg (200 %)
-- Vitamine D3 : 10 µg (200 %)
-- Iode : 150 µg (100 %)
-- Vitamine B12 : 2,5 µg (100 %)
-- DHA (oméga-3) : 200 mg
-
-*VNR : valeurs nutritionnelles de référence.
-
----
-
-## 2. Autres produits de la maquette (à compléter sur le même modèle)
-
-| Name | Slug | Price | Étape | Accroche |
-|---|---|---|---|---|
-| Prénatal Complet T1 | prenatal-complet-t1 | 22,90 € | 1er trimestre | Acide folique (B9), iode et vitamine B6 |
-| Oméga-3 DHA Maman | omega-3-dha-maman | 19,90 € | 3e trimestre | DHA d'origine marine, 500 mg par jour |
-| Allaitement Douceur | allaitement-douceur | 23,90 € | Allaitement | Vitamine D, DHA et iode pour l'allaitement |
-| Magnésium Sérénité | magnesium-serenite | 16,90 € | 2e trimestre | Magnésium marin et vitamine B6 |
-| Pack 2e trimestre | pack-2e-trimestre | 38,05 € | 2e trimestre | Prénatal T2 + Oméga-3 DHA, -15 % |
+## ⚠️ Avant publication
+- Bénéfices rédigés à partir des **allégations autorisées UE** (registre CE 1924/2006), mais dosages et formulations sont **fictifs** : à remplacer par les fiches techniques réelles et à faire valider par un pharmacien / une sage-femme.
+- Champs **Note moyenne**, **Nombre d'avis** et **Avis sage-femme** laissés vides volontairement : afficher de fausses notes ou de faux témoignages sur un site réel est interdit (pratique commerciale trompeuse). Les remplir uniquement avec de vrais avis.
+- Catégories (Préconception, Grossesse, Allaitement, Packs) : à créer dans **Ecommerce → Categories** puis à cocher sur chaque produit.
