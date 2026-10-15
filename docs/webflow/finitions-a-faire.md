@@ -18,9 +18,14 @@ Ces réglages sont volontairement reportés à la fin.
 - [ ] Remplacer les emplacements 📷 par les vraies photos
 
 ## Fiche produit
-- [ ] Activer Ecommerce, coller « HD — Fiche produit — Desktop 1440 » dans la page Product Template
-- [ ] Relier les champs à la collection Products (nom, prix, images, description, composition)
-- [ ] Mêmes finitions que l'accueil (liens, mobile, barre d'achat sticky mobile)
+- [x] Page statique `/prenatal-complet-t2` construite via le connecteur (15/10/2026), d'après la maquette Figma : fil d'Ariane, galerie, infos d'achat (badge, note, bénéfices, prix, achat unique / abonnement, quantité, bouton, réassurance, avertissement santé), composition en accordéon (tableau VNR), avis sage-femme, avis clients, « Complétez votre routine », FAQ, barre d'achat sticky (≤ 991 px). Classes préfixées `pp_`, responsive tablette + mobile inclus, SEO title/description renseignés
+- [x] Accordéons en `<details>/<summary>` natifs : s'ouvrent sans interaction Webflow
+- [ ] Header et footer : les transformer en **Components** sur l'accueil (clic droit → Create component), puis les placer sur la fiche produit
+- [ ] Activer Ecommerce (Designer → panneau Ecommerce → Enable) puis déplacer le bloc `pp_main` dans la page **Product Template**
+- [ ] Relier aux champs de la collection Products : nom, prix, image principale + galerie, description, et ajouter des champs perso (badge étape, bénéfices, composition, mode d'emploi, précautions)
+- [ ] Remplacer le faux bouton « Ajouter au panier » par l'élément **Add to Cart** de Webflow
+- [ ] Sélecteur achat unique / abonnement : visuel seulement (Webflow ne gère pas l'abonnement → Stripe Billing ou outil tiers, ou V2)
+- [ ] Note, avis et filtres : statiques, à brancher sur un outil d'avis (ou une collection CMS « Avis »)
 
 ## Avant mise en ligne
 - [ ] Textes santé, dosages et allégations validés par un professionnel
