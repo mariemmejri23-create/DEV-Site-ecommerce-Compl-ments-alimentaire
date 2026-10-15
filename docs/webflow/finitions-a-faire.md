@@ -25,9 +25,11 @@ Ces réglages sont volontairement reportés à la fin.
 - [x] Ecommerce activé (15/10/2026)
 - [x] Collection Products : champs ajoutés (Étape, Accroche, Bénéfices, Infos prix, Composition, Mode d'emploi, Précautions d'emploi, Avis sage-femme, Note moyenne, Nombre d'avis)
 - [x] Page **Fiche produit (template)** construite : barre d'annonce + header + fiche + footer, textes reliés aux champs (nom, étape, note, avis, accroche, bénéfices, infos prix, composition, description, mode d'emploi, précautions, avis sage-femme, barre sticky)
-- [ ] Saisir les produits à la main (le connecteur ne peut pas créer de produits Ecommerce) → voir [`produits-a-saisir.md`](produits-a-saisir.md)
+- [x] 11 produits importés par CSV (format Webflow) avec packshots ; champs perso (Étape, Accroche, Bénéfices, Composition, Infos prix, Mode d'emploi, Précautions) remplis via le connecteur ; catégories Préconception / Grossesse / Allaitement / Packs & cures créées et attribuées (catégories d'exemple « mugs » supprimées)
+- [ ] **Devise** : passer de USD à EUR (Site settings → Ecommerce → Currency)
 - [ ] Dans le template : relier le **prix** (champ Price du Default SKU) aux textes `pp_price`, `pp_option_price` et `pp_sticky_price` — non reliable via le connecteur
-- [ ] Dans le template : remplacer le visuel `pp_main_visual` par une **Image** reliée à « Main Image » (et les miniatures à « More Images »)
+- [x] Template : image principale reliée à « Main Image » (miniatures retirées)
+- [x] Template : note/avis et carte « avis sage-femme » **masqués** tant qu'il n'y a pas de vrais avis (visibilité à réactiver)
 - [ ] Sections « Avis clients » et « Souvent associés » : non reprises dans le template (à refaire avec une collection Avis et une Collection List de produits)
 - [ ] La page statique `/prenatal-complet-t2` fera doublon avec le produit du même slug → la supprimer une fois le produit saisi
 - [ ] Remplacer le faux bouton « Ajouter au panier » par l'élément **Add to Cart** de Webflow
