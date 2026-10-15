@@ -22,8 +22,14 @@ Ces réglages sont volontairement reportés à la fin.
 - [x] Accordéons en `<details>/<summary>` natifs : s'ouvrent sans interaction Webflow
 - [x] Icône des accordéons « + » → « − » à l'ouverture : CSS dans Page settings → Custom code → Head (pas de JavaScript ; ne s'affiche qu'en Preview / site publié)
 - [x] Barre d'annonce, Header et Footer transformés en **Components** (groupe « Global ») sur l'accueil et placés sur la fiche produit : une modification se répercute sur toutes les pages
-- [ ] Activer Ecommerce (Designer → panneau Ecommerce → Enable) puis déplacer le bloc `pp_main` dans la page **Product Template**
-- [ ] Relier aux champs de la collection Products : nom, prix, image principale + galerie, description, et ajouter des champs perso (badge étape, bénéfices, composition, mode d'emploi, précautions)
+- [x] Ecommerce activé (15/10/2026)
+- [x] Collection Products : champs ajoutés (Étape, Accroche, Bénéfices, Infos prix, Composition, Mode d'emploi, Précautions d'emploi, Avis sage-femme, Note moyenne, Nombre d'avis)
+- [x] Page **Fiche produit (template)** construite : barre d'annonce + header + fiche + footer, textes reliés aux champs (nom, étape, note, avis, accroche, bénéfices, infos prix, composition, description, mode d'emploi, précautions, avis sage-femme, barre sticky)
+- [ ] Saisir les produits à la main (le connecteur ne peut pas créer de produits Ecommerce) → voir [`produits-a-saisir.md`](produits-a-saisir.md)
+- [ ] Dans le template : relier le **prix** (champ Price du Default SKU) aux textes `pp_price`, `pp_option_price` et `pp_sticky_price` — non reliable via le connecteur
+- [ ] Dans le template : remplacer le visuel `pp_main_visual` par une **Image** reliée à « Main Image » (et les miniatures à « More Images »)
+- [ ] Sections « Avis clients » et « Souvent associés » : non reprises dans le template (à refaire avec une collection Avis et une Collection List de produits)
+- [ ] La page statique `/prenatal-complet-t2` fera doublon avec le produit du même slug → la supprimer une fois le produit saisi
 - [ ] Remplacer le faux bouton « Ajouter au panier » par l'élément **Add to Cart** de Webflow
 - [ ] Sélecteur achat unique / abonnement : visuel seulement (Webflow ne gère pas l'abonnement → Stripe Billing ou outil tiers, ou V2)
 - [ ] Note, avis et filtres : statiques, à brancher sur un outil d'avis (ou une collection CMS « Avis »)
