@@ -32,7 +32,8 @@ Ces réglages sont volontairement reportés à la fin.
 - [x] Template : note/avis et carte « avis sage-femme » **masqués** tant qu'il n'y a pas de vrais avis (visibilité à réactiver)
 - [ ] Sections « Avis clients » et « Souvent associés » : non reprises dans le template (à refaire avec une collection Avis et une Collection List de produits)
 - [ ] La page statique `/prenatal-complet-t2` fera doublon avec le produit du même slug → la supprimer une fois le produit saisi
-- [ ] Remplacer le faux bouton « Ajouter au panier » par l'élément **Add to Cart** de Webflow
+- [x] Vrai bloc **Add to Cart** ajouté et stylé (`pp_atc_form`, `pp_atc_qty`, `pp_atc_btn`), libellé « Quantity » masqué visuellement, bouton « Buy now » masqué (Stripe non connecté), faux bouton supprimé
+- [ ] Traduire le texte du bouton « Add to Cart » → « Ajouter au panier » (Designer : double-clic sur le bouton) et le message « This product is out of stock. »
 - [ ] Sélecteur achat unique / abonnement : visuel seulement (Webflow ne gère pas l'abonnement → Stripe Billing ou outil tiers, ou V2)
 - [ ] Note, avis et filtres : statiques, à brancher sur un outil d'avis (ou une collection CMS « Avis »)
 
