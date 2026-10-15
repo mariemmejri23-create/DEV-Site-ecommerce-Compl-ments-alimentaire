@@ -20,6 +20,7 @@ Ces réglages sont volontairement reportés à la fin.
 ## Fiche produit
 - [x] Page statique `/prenatal-complet-t2` construite via le connecteur (15/10/2026), d'après la maquette Figma : fil d'Ariane, galerie, infos d'achat (badge, note, bénéfices, prix, achat unique / abonnement, quantité, bouton, réassurance, avertissement santé), composition en accordéon (tableau VNR), avis sage-femme, avis clients, « Complétez votre routine », FAQ, barre d'achat sticky (≤ 991 px). Classes préfixées `pp_`, responsive tablette + mobile inclus, SEO title/description renseignés
 - [x] Accordéons en `<details>/<summary>` natifs : s'ouvrent sans interaction Webflow
+- [x] Icône des accordéons « + » → « − » à l'ouverture : CSS dans Page settings → Custom code → Head (pas de JavaScript ; ne s'affiche qu'en Preview / site publié)
 - [ ] Header et footer : les transformer en **Components** sur l'accueil (clic droit → Create component), puis les placer sur la fiche produit
 - [ ] Activer Ecommerce (Designer → panneau Ecommerce → Enable) puis déplacer le bloc `pp_main` dans la page **Product Template**
 - [ ] Relier aux champs de la collection Products : nom, prix, image principale + galerie, description, et ajouter des champs perso (badge étape, bénéfices, composition, mode d'emploi, précautions)
