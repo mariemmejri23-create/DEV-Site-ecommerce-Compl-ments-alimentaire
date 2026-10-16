@@ -48,7 +48,7 @@ Ces réglages sont volontairement reportés à la fin.
 - [ ] **Mini-panier** : ajouter l'élément natif **Cart** dans le composant Header (Designer → ➕ Add → Ecommerce → Cart), puis supprimer l'ancienne icône 🛒 statique avec le faux badge « 2 » et styler le tiroir
 - [ ] Traduire les textes restants du checkout (« * Required », « Pay with browser », « Subtotal », « Total », libellés des champs) : non modifiables via le connecteur → double-clic dans le Designer
 - [x] Rendu checkout + confirmation vérifié dans le Designer et site republié (16/10/2026)
-- [ ] **Livraison** : les tarifs actuels sont ceux d'exemple de Webflow (Flat-Rate 18,90 €, Expedited 150 €, Overnight 271 €) → Ecommerce → Settings → Shipping : supprimer Expedited et Overnight, créer « Colissimo » (ex. 4,90 €) et « Livraison offerte » dès 40 € (cohérent avec la barre d'annonce)
+- [x] **Livraison** : zone « Domestic Shipping – France » activée, mode **Colissimo** (Price-based) : 4,90 € sous 40 €, offert dès 40 € (les tarifs 18,90 / 150 / 271 € vus dans le Designer ne sont que des données d'exemple)
 - [ ] Traduire « Place Order » → « Valider ma commande » (double-clic sur le bouton dans le Designer)
 - [ ] (Optionnel) Connecter Stripe en **mode test** (compte gratuit, carte 4242 4242 4242 4242) pour tester le paiement
 - [ ] Vraies commandes et nom de domaine : nécessitent un forfait Ecommerce payant
