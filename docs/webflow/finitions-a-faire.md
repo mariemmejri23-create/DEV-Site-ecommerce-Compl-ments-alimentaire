@@ -4,7 +4,9 @@
 Ces réglages sont volontairement reportés à la fin.
 
 ## Accueil
-- [ ] **Polices** : Site settings → Fonts → Google Fonts → ajouter Fraunces (400, 600) et DM Sans (400, 500, 700) — le site s'affiche en Arial tant que ce n'est pas fait
+- [x] **Polices** Fraunces et DM Sans téléversées en *Custom fonts* auto-hébergées (variables) — pas d'intégration Google Fonts, pour le RGPD
+- [x] Langue principale du site : Français (fr-FR)
+- [ ] Favicon : charger `assets/brand/favicon-neuf-lunes.png` (Site settings → General → Icons)
 - [ ] **Wrapper** « HD Accueil Desktop 1440 » : Width 100 % (au lieu de 1440 px), renommer la classe `page-wrapper`
 - [ ] Bouton « Je m'inscris » sur 2 lignes : Breaking = No wrap + Flex Child = Don't shrink
 - [ ] Visuel du hero trop grand : Width 45 %, Max H 600 px
