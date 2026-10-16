@@ -9,7 +9,8 @@ Ces réglages sont volontairement reportés à la fin.
 - [ ] Favicon : charger `assets/brand/favicon-neuf-lunes.png` (Site settings → General → Icons)
 - [ ] **Wrapper** « HD Accueil Desktop 1440 » : Width 100 % (au lieu de 1440 px), renommer la classe `page-wrapper`
 - [ ] Bouton « Je m'inscris » sur 2 lignes : Breaking = No wrap + Flex Child = Don't shrink
-- [ ] Visuel du hero trop grand : Width 45 %, Max H 600 px
+- [x] Visuel du hero : photo « future maman » (image générée par IA via Figma, `assets/hero/hero-future-maman.jpg`, asset Webflow `6ad21217d95b31afcc56516e`), classe `hero_photo` (object-fit cover), cadre 44 % × 600 px, ancienne forme et légende 📷 masquées (`is_hidden`) ; réassurance sans retour à la ligne
+- [ ] Photo du hero générée par IA : à remplacer par une vraie photo (shooting ou banque d'images) avant la mise en ligne si possible
 - [ ] Boutons et liens du menu → vrais liens (Wrap in Link Block + page cible)
 - [ ] Newsletter → remplacer par un vrai Form Block (sinon aucune inscription enregistrée)
 - [x] Version tablette & mobile appliquée via le connecteur Webflow (14/10/2026) : hero et quiz en colonne, grilles 2 colonnes (tablette) puis 1 colonne (mobile), marges 40 px → 20 px, titres réduits (H1 36 px, H2 30 px, H3 22 px), boutons du hero pleine largeur, footer empilé
