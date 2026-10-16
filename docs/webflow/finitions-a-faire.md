@@ -37,9 +37,18 @@ Ces réglages sont volontairement reportés à la fin.
 - [ ] Sections « Avis clients » et « Souvent associés » : non reprises dans le template (à refaire avec une collection Avis et une Collection List de produits)
 - [x] Page statique `/prenatal-complet-t2` supprimée (doublon du template, notes fictives)
 - [x] Vrai bloc **Add to Cart** ajouté et stylé (`pp_atc_form`, `pp_atc_qty`, `pp_atc_btn`), libellé « Quantity » masqué visuellement, bouton « Buy now » masqué (Stripe non connecté), faux bouton supprimé
-- [ ] Traduire le texte du bouton « Add to Cart » → « Ajouter au panier » (Designer : double-clic sur le bouton) et le message « This product is out of stock. »
+- [x] Bouton « Add to Cart » traduit → « Ajouter au panier »
+- [ ] Traduire le message « This product is out of stock. » et le texte d'attente « Adding to cart… » → « Ajout en cours… »
 - [ ] Sélecteur achat unique / abonnement : visuel seulement (Webflow ne gère pas l'abonnement → Stripe Billing ou outil tiers, ou V2)
 - [ ] Note, avis et filtres : statiques, à brancher sur un outil d'avis (ou une collection CMS « Avis »)
+
+## Parcours d'achat (gratuit, testable sur webflow.io)
+- [x] Page **Checkout** : barre d'annonce + header + footer, intro « Finaliser ma commande », 7 titres traduits (Vos coordonnées, Adresse de livraison, Mode de livraison, Paiement, Adresse de facturation, Votre commande, Récapitulatif), classes `co_form`, `co_h2`, bouton `co_btn` aux couleurs de la marque, mentions CGV / confidentialité / droit de rétractation 14 jours (liens `#` à relier aux pages légales)
+- [x] Page **Order Confirmation** : composants globaux, intro « Merci, votre commande est en route ✨ », lien « ← Retour à la boutique », titres traduits
+- [ ] **Mini-panier** : ajouter l'élément natif **Cart** dans le composant Header (Designer → ➕ Add → Ecommerce → Cart), puis supprimer l'ancienne icône 🛒 statique avec le faux badge « 2 » et styler le tiroir
+- [ ] Traduire les textes restants du checkout (« * Required », « Pay with browser », « Subtotal », « Total », libellés des champs) : non modifiables via le connecteur → double-clic dans le Designer
+- [ ] (Optionnel) Connecter Stripe en **mode test** (compte gratuit, carte 4242 4242 4242 4242) pour tester le paiement
+- [ ] Vraies commandes et nom de domaine : nécessitent un forfait Ecommerce payant
 
 ## Avant mise en ligne
 - [ ] Textes santé, dosages et allégations validés par un professionnel
