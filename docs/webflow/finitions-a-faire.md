@@ -55,7 +55,7 @@ Ces réglages sont volontairement reportés à la fin.
 - [x] **Livraison** : zone « Domestic Shipping – France » activée, mode **Colissimo** (Price-based) : 4,90 € sous 40 €, offert dès 40 € (les tarifs 18,90 / 150 / 271 € vus dans le Designer ne sont que des données d'exemple)
 - [ ] Traduire « Place Order » → « Valider ma commande » (double-clic sur le bouton dans le Designer)
 - [x] Stripe connecté en **mode test** ; page /checkout fonctionnelle (panier réel, Colissimo offert dès 40 €, TVA 20 % incluse affichée « Country Taxes »)
-- [ ] Champs carte bancaire non saisissables lors du test (à retester sans VPN / bloqueur, autre navigateur) ; renommer « Country Taxes » en « dont TVA 20 % » (Settings → Ecommerce → Taxes)
+- [ ] ⛔ Même avec Stripe test connecté et le site republié, le panier affiche « Checkout is disabled on this site » et les champs carte ne se chargent pas : **limite du plan Starter**. Le paiement (même test) ne s'active qu'avec un forfait Ecommerce ; renommer « Country Taxes » en « dont TVA 20 % » (Settings → Ecommerce → Taxes)
 - [ ] ~~(Optionnel) Connecter Stripe en mode test~~ (compte gratuit, carte 4242 4242 4242 4242) pour tester le paiement
 - [ ] Vraies commandes et nom de domaine : nécessitent un forfait Ecommerce payant
 
