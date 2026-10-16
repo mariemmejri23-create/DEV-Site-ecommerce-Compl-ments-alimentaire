@@ -57,6 +57,8 @@ Ces réglages sont volontairement reportés à la fin.
 - [x] Stripe connecté en **mode test** ; page /checkout fonctionnelle (panier réel, Colissimo offert dès 40 €, TVA 20 % incluse affichée « Country Taxes »)
 - [ ] ⛔ Même avec Stripe test connecté et le site republié, le panier affiche « Checkout is disabled on this site » et les champs carte ne se chargent pas : **limite du plan Starter**. Le paiement (même test) ne s'active qu'avec un forfait Ecommerce ; renommer « Country Taxes » en « dont TVA 20 % » (Settings → Ecommerce → Taxes)
 - [ ] ~~(Optionnel) Connecter Stripe en mode test~~ (compte gratuit, carte 4242 4242 4242 4242) pour tester le paiement
+- [x] Lien temporaire « Voir la page de paiement (démo) → » ajouté dans le pied du mini-panier (classe `cart_demo_link`, vers /checkout)
+- [ ] ⚠️ **Supprimer `cart_demo_link`** dès que le forfait Ecommerce est actif (le vrai bouton du panier fonctionnera)
 - [ ] Vraies commandes et nom de domaine : nécessitent un forfait Ecommerce payant
 
 ## Avant mise en ligne
