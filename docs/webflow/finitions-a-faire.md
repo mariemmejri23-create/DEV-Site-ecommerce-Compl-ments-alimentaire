@@ -18,6 +18,9 @@ Ces réglages sont volontairement reportés à la fin.
 - [x] Icône ☰ remplacée par un SVG (classe `menu_burger_svg`, 28 px, trait #2F2A26)
 - [ ] Étapes en 2 colonnes sur mobile (actuellement 1 colonne car la classe `etapes_grid` est partagée avec avis, produits, experts et articles) — créer une classe dédiée si besoin
 - [x] Cartes « Best-sellers » de l'accueil cliquables (lien couvrant toute la carte, classe `card_link`) vers /product/prenatal-complet-t1, -t2, omega-3-dha-maman, allaitement-douceur ; effet survol
+- [x] Cartes de l'accueil : vrais packshots (T1, T2, Oméga-3, Allaitement) à la place de l'image générique, textes alternatifs renseignés sur les assets
+- [x] Logo du header cliquable vers l'accueil (lien `logo_link`, sur toutes les pages via le composant)
+- [ ] Supprimer les fausses notes « ★★★★★ (124) » des cartes de l'accueil (aucun avis réel)
 - [ ] Les cartes de l'accueil restent statiques (texte, prix, image) : les remplacer à terme par une Collection List Products
 - [ ] Remplacer les emplacements 📷 par les vraies photos
 
@@ -51,7 +54,9 @@ Ces réglages sont volontairement reportés à la fin.
 - [x] Rendu checkout + confirmation vérifié dans le Designer et site republié (16/10/2026)
 - [x] **Livraison** : zone « Domestic Shipping – France » activée, mode **Colissimo** (Price-based) : 4,90 € sous 40 €, offert dès 40 € (les tarifs 18,90 / 150 / 271 € vus dans le Designer ne sont que des données d'exemple)
 - [ ] Traduire « Place Order » → « Valider ma commande » (double-clic sur le bouton dans le Designer)
-- [ ] (Optionnel) Connecter Stripe en **mode test** (compte gratuit, carte 4242 4242 4242 4242) pour tester le paiement
+- [x] Stripe connecté en **mode test** ; page /checkout fonctionnelle (panier réel, Colissimo offert dès 40 €, TVA 20 % incluse affichée « Country Taxes »)
+- [ ] Champs carte bancaire non saisissables lors du test (à retester sans VPN / bloqueur, autre navigateur) ; renommer « Country Taxes » en « dont TVA 20 % » (Settings → Ecommerce → Taxes)
+- [ ] ~~(Optionnel) Connecter Stripe en mode test~~ (compte gratuit, carte 4242 4242 4242 4242) pour tester le paiement
 - [ ] Vraies commandes et nom de domaine : nécessitent un forfait Ecommerce payant
 
 ## Avant mise en ligne
