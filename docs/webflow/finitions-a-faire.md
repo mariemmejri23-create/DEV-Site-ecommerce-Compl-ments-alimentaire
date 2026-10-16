@@ -17,6 +17,8 @@ Ces réglages sont volontairement reportés à la fin.
 - [ ] Relier les liens du menu (desktop et mobile) aux vraies pages quand elles existeront (actuellement `#`)
 - [x] Icône ☰ remplacée par un SVG (classe `menu_burger_svg`, 28 px, trait #2F2A26)
 - [ ] Étapes en 2 colonnes sur mobile (actuellement 1 colonne car la classe `etapes_grid` est partagée avec avis, produits, experts et articles) — créer une classe dédiée si besoin
+- [x] Cartes « Best-sellers » de l'accueil cliquables (lien couvrant toute la carte, classe `card_link`) vers /product/prenatal-complet-t1, -t2, omega-3-dha-maman, allaitement-douceur ; effet survol
+- [ ] Les cartes de l'accueil restent statiques (texte, prix, image) : les remplacer à terme par une Collection List Products
 - [ ] Remplacer les emplacements 📷 par les vraies photos
 
 ## Fiche produit
